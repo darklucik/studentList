@@ -1,4 +1,4 @@
-function добавитьстудента() {
+function addStudents() {
     let input = document.getElementById("studentName");
     let name = input.value;
     if (name.trim() !== "") {
